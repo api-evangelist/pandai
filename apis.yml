@@ -1,7 +1,17 @@
 aid: pandai
 name: Pandai
-description: Pandai is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Pandai is a Malaysian education technology company founded in 2020 that operates
+  a digital learning platform for primary and secondary school students. The app
+  aligns to Malaysia's national curriculum (DSKP) across KSSR Years 1-6 and KSSM
+  Forms 1-5, including SPM exam preparation, and helps learners improve their grades
+  through interactive quizzes, tests, exams, topical practice, notes, flashcards,
+  videos, and live tutoring. Features include personalized assessments, an AI-powered
+  revision assistant (Ask Pbot), gamified learning with battles, leaderboards and
+  rewards, and performance tracking via scorecards and report cards. Pandai is a
+  consumer-facing learning app and does not publish a public developer API surface;
+  this profile was surfaced as a 500 Global portfolio company and enriched by the
+  API Evangelist pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/pandai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://framerusercontent.com/assets/qWZuusChNvOZ56NSpucpbbpuVM.jpeg
 tags:
 - Company
+- Education
+- EdTech
+- E-Learning
+- Online Learning
+- Students
+- Malaysia
+- Assessment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,20 @@ maintainers:
 common:
 - type: Website
   url: https://pandai.org
+- type: SignUp
+  url: https://app.pandai.org/app/sign-up
+- type: Login
+  url: https://app.pandai.org/app/sign-in
+- type: Blog
+  url: https://blog.pandai.org/
+- type: TermsOfService
+  url: https://my.pandai.org/about/terms-of-service
+- type: PrivacyPolicy
+  url: https://my.pandai.org/about/privacy-policy
+- type: DomainSecurity
+  url: security/pandai-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
