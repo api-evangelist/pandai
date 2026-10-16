@@ -2,6 +2,20 @@
   "repo": "pandai",
   "feeds": [
     {
+      "source": "https://blog.pandai.org/feed/",
+      "feed_url": "https://blog.pandai.org/feed/",
+      "title": "",
+      "saved": 2,
+      "method": "feed"
+    },
+    {
+      "source": "https://blog.pandai.org/",
+      "feed_url": "https://blog.pandai.org/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
       "source": "https://app.pandai.org/app/sign-in",
       "feed_url": "https://app.pandai.org/app/sign-in",
       "title": "",
@@ -9,6 +23,6 @@
       "method": "none"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "post_count": 2,
+  "fetched": "2026-10-10T13:15:00Z"
 }
